@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+
+#topHalf {
+  padding: 17px;
+}
+
+#profile-contact-area {
+  // border: 1px solid black;
+  float: left;
+  width: 50%;
+}
+
+#about-me-build, #technologies-build {
+  // border: 1px solid black;
+  float: right;
+  width: 50%;
+  height: 50%;
+  margin: 0;
+}
+
+#projects-build {
+  // border: 1px solid black;
+  // float: left;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto 0 auto;
+}
+
+#projects-title {
+  padding-top: 78px;
+}
+
+.learn-about-me{
+  padding-right: 27px;
+  padding-left: 27px;
+}
+
+.heading-bar {
+  border-bottom: 1px solid black;
+}
+
+#profile-contact-area {
+  padding-bottom: 70px;
+}
+
+.web, .git {
+  margin: 0 5px 0 5px;
+}

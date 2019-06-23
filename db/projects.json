@@ -1,0 +1,33 @@
+{
+  "project1": 
+    {
+    "title": "Movie History", 
+    "screenshot": "http://gotoflashgames.com/files/file/033.jpg", 
+    "description": "This project was created as an exercise to learn CRUD with firebase.",
+    "technologiesUsed": "HTML, CSS, JavaScript, Github, and Firebase",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/Dev-Davis/movie_history"
+    },
+"project2":
+    {
+      "title": "Sandwich Maker", 
+      "screenshot": "https://i.ibb.co/MnGQKdX/sandwich-maker.png", 
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/Dev-Davis/Sandwich-Maker"
+    },
+"project3":
+    {
+      "title": "Hot Stuff", 
+      "screenshot": "https://i.ibb.co/bByZTkH/hot-stuff.png", 
+      "description": "This is the best project", 
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
+      "githubUrl": "https://github.com/Dev-Davis/hot-stuff"
+    }
+}
+
