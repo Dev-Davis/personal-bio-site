@@ -1,0 +1,32 @@
+{
+  "project1": 
+    {
+    "title": "Movie History", 
+    "screenshot": "../src/assets/images/movie-history.png", 
+    "description": "This project was created as an exercise to learn CRUD with Firebase.",
+    "technologiesUsed": "HTML, CSS, JavaScript, Github, Webpack, Bootstrap and Firebase",
+    "available": true,
+    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+    "githubUrl": "https://github.com/Dev-Davis/movie_history"
+    },
+"project2":
+    {
+      "title": "Sandwich Maker", 
+      "screenshot": "../src/assets/images/sandwich-maker.png", 
+      "description": "This project is a JavaScript project learning to use the structure of modules. ",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap and` Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/Dev-Davis/Sandwich-Maker"
+    },
+"project3":
+    {
+      "title": "Hot Stuff", 
+      "screenshot": "../src/assets/images/hot-stuff.png", 
+      "description": "This is a personal JavaScript project created for a local restaurant using vanilla JavaScript.", 
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
+      "githubUrl": "https://github.com/Dev-Davis/hot-stuff"
+    }
+}
