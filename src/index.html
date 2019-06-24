@@ -1,54 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Test</title>
+  <title>Personal Bio Site - a little bit of my life</title>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Mali|Playfair+Display|Teko&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
 
   <!-- As a heading -->
-  <nav class="navbar navbar-light bg-light heading-bar">
-    <span class="navbar-brand mb-0 h1">Navbar</span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Contact Me:</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">LinkedIn <img src="./assets/images/linkedIn.png"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">LinkedIn <img src="./assets/images/linkedIn.png"></span></a>
+          <a class="nav-link" href="#">Github</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">LinkedIn <img src="./assets/images/linkedIn.png"></span></a>
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
-  <div id="topHalf col-12">
+  <div id="topHalf col-12" class="mx-auto d-block">
 
     <div id="topTier col-6">
       <div id="profile-contact-area">
-        <h1 class="text-center">Sean Davis</h1>
-        <img src="./assets/images/hehe-baby-pic.jpg" class="rounded mx-auto d-block" alt="Profile Picture">
-        <div class="contact-info">
-          <h4 class="text-center">Hit me up</h4>
-        </div>
+        <h1 class="text-center titles">Sean Davis</h1>
+        <img src="./assets/images/smoothe.jpg" class="mx-auto d-block piccy" alt="Profile Picture">
       </div>
     </div>
+
+
 
     <div id="about-me col-6">
       <div id="about-me-build">
-          <h1 class="about-title text-center">About Me</h1>
-          <p class="learn-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus in voluptatum aperiam ipsa fugiat veniam laudantium optio laboriosam, modi nemo numquam excepturi maxime beatae itaque totam explicabo consequuntur, error quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed officia natus cumque, minima perferendis deleniti consectetur error earum illo corrupti quidem esse. Totam nostrum aspernatur dolor aut nam iste? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente est reprehenderit dignissimos repellat aperiam. Cumque est blanditiis repellendus reprehenderit neque laudantium natus aut nam maxime officia doloribus, optio nisi dolorem?</p>
+        <h1 class="about-title text-center titles">About Me</h1>
+        <p class="learn-about-me text-center">Hello, I am Sean. I am an aspiring software developer and finding my niche in this
+          industry. I'm growing each and everyday. I grew an interest in developmentwhen I learned all of the things you
+          could do with code. Watching the Social Network really sparked my intertest in development. To have an idea in
+          mind, sit down, plan it out, and watch it grow in development is feeling of acievement. </p>
       </div>
     </div>
   </div>
   
-  <div id="technologies">
+  <div id="technologies" class="col-12">
     <div id="technologies-build">
-        <h1 class="text-center tech-title">Technologies</h1>
-        <p class="learn-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus in voluptatum aperiam ipsa fugiat veniam laudantium optio laboriosam, modi nemo numquam excepturi maxime beatae itaque totam explicabo consequuntur, error quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed officia natus cumque, minima perferendis deleniti consectetur error earum illo corrupti quidem esse. Totam nostrum aspernatur dolor aut nam iste? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente est reprehenderit dignissimos repellat aperiam. Cumque est blanditiis repellendus reprehenderit neque laudantium natus aut nam maxime officia doloribus, optio nisi dolorem?</p>
+      <h1 class="text-center titles">Technologies</h1>
+      <p class="learn-about-me text-center">Attending Nashville Software School, these are the technologies I've worked
+        with.</p>
+        <div class="row">
+          <div class="col-11 techs text-center">
+            <img src="./assets/images/html.png" class="card-img-top logo" alt="HTML Logo">
+            <img src="./assets/images/css.png" class="card-img-top logo" alt="CSS Logo">
+            <img src="./assets/images/js.png" class="card-img-top logo" alt="JavaScript Logo">
+            <img src="./assets/images/sass.png" class="card-img-top logo" alt="Sass Logo">
+            <img src="./assets/images/webpack.png" class="card-img-top logo" alt="Webpack Logo">
+            <img src="./assets/images/react.png" class="card-img-top logo" alt="React Logo">
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-
-  <div id="projects">
-    <div id="projects-build mx-auto d-block">
-      <h1 class="text-center projects-title">Projects</h1>
-      <div id="exercises"></div>
+    
+    
+    <div id="container projects" class="col-12 projects-box">
+      <div id="projects-build">
+        <h1 class="text-center titles">Projects</h1>
+        <div id="exercises"></div>
+      </div>
     </div>
-  </div>
-  
-
-  <div id="footer"></div>
+    
+    <div id="footer">
 
 </body>
+
 </html>
