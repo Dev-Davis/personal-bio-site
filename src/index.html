@@ -8,6 +8,8 @@
   <title>Personal Bio Site - a little bit of my life</title>
   <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Mali|Playfair+Display|Teko&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -20,19 +22,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">LinkedIn <img src="./assets/images/linkedIn.png"></span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/sean-dev/">LinkedIn <img src="./assets/images/linkedIn.png" class="socials"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">LinkedIn <img src="./assets/images/linkedIn.png"></span></a>
-          <a class="nav-link" href="#">Github</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">LinkedIn <img src="./assets/images/linkedIn.png"></span></a>
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="https://github.com/Dev-Davis">Github <img src="./assets/images/github.png" class="socials"></a>
         </li>
       </ul>
     </div>
@@ -42,7 +36,7 @@
 
     <div id="topTier col-6">
       <div id="profile-contact-area">
-        <h1 class="text-center titles">Sean Davis</h1>
+        <h1 class="text-center titles bounce">Sean Davis</h1>
         <img src="./assets/images/smoothe.jpg" class="mx-auto d-block piccy" alt="Profile Picture">
       </div>
     </div>
@@ -52,10 +46,7 @@
     <div id="about-me col-6">
       <div id="about-me-build">
         <h1 class="about-title text-center titles">About Me</h1>
-        <p class="learn-about-me text-center">Hello, I am Sean. I am an aspiring software developer and finding my niche in this
-          industry. I'm growing each and everyday. I grew an interest in developmentwhen I learned all of the things you
-          could do with code. Watching the Social Network really sparked my intertest in development. To have an idea in
-          mind, sit down, plan it out, and watch it grow in development is feeling of acievement. </p>
+        <p class="learn-about-me text-center col-10 offset-1">Hello, I am Sean. I am an aspiring software developer and finding my niche in this industry. I really wanted to get into development because I realized everything electronic basically has a program, and you could create something that you have control over. My main thing when I first got into development was to make video games. I still want to, but there are so many possibilities in this broad field of development. So, I'm trying to stay focused on one area for now. Programming is a tedius task, but very rewarding once you figure it out. I love learning and working them out. Unfamiliar territory can make you nervous, but you can't grow without healthy risks. Those are things I love about development. The anxious/nervous feeling of learning new technologies and the feeling of success when learning thos technologies. Most of us will not start off good at the things we do, but practice makes you good at what you do. You practice your interest and you become good at it. What makes a good developer is pracrtice. Writing code, breaking code (in a branch of course), and fixing the bugs. The final product becomes your baby. You write it well and keeo it updated. Put your heart into your code.</p>
       </div>
     </div>
   </div>
@@ -63,31 +54,36 @@
   <div id="technologies" class="col-12">
     <div id="technologies-build">
       <h1 class="text-center titles">Technologies</h1>
-      <p class="learn-about-me text-center">Attending Nashville Software School, these are the technologies I've worked
+      <p class="learn-about-me technologies text-center">Attending Nashville Software School, these are the technologies I've worked
         with.</p>
         <div class="row">
-          <div class="col-11 techs text-center">
-            <img src="./assets/images/html.png" class="card-img-top logo" alt="HTML Logo">
-            <img src="./assets/images/css.png" class="card-img-top logo" alt="CSS Logo">
-            <img src="./assets/images/js.png" class="card-img-top logo" alt="JavaScript Logo">
-            <img src="./assets/images/sass.png" class="card-img-top logo" alt="Sass Logo">
-            <img src="./assets/images/webpack.png" class="card-img-top logo" alt="Webpack Logo">
-            <img src="./assets/images/react.png" class="card-img-top logo" alt="React Logo">
+          <div class="col-10 offset-1 techs text-center">
+            <div class="learned-tech">
+              <img src="./assets/images/html.png" class="card-img-top logo" alt="HTML Logo">
+              <img src="./assets/images/css.png" class="card-img-top logo" alt="CSS Logo">
+              <img src="./assets/images/js.png" class="card-img-top logo" alt="JavaScript Logo">
+              <img src="./assets/images/sass.png" class="card-img-top logo" alt="Sass Logo">
+              <img src="./assets/images/webpack.png" class="card-img-top logo" alt="Webpack Logo">
+              <img src="./assets/images/react.png" class="card-img-top logo" alt="React Logo">
+            </div>
           </div>
         </div>
       </div>
     </div>
     
     
-    <div id="container projects" class="col-12 projects-box">
-      <div id="projects-build">
+    <div id="container d-flex">
+      <div class="col-10 offset-1">
         <h1 class="text-center titles">Projects</h1>
-        <div id="exercises"></div>
+        <div id="exercises" class="row"></div>
       </div>
     </div>
     
     <div id="footer">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

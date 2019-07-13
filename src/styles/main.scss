@@ -1,4 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./animate.scss";
 
 body {
   background-image: url(https://media.istockphoto.com/photos/high-res-wooden-texture-background-picture-id509055470?k=6&m=509055470&s=612x612&w=0&h=wYebuh_XFD3i_j4v519v-w-sUYSJccK8MGscPJHHjK8=);
@@ -8,10 +9,6 @@ body {
 
 }
 
-// #topHalf {
-//   padding: 17px;
-// }
-
 #topTier {
   float: left;
 }
@@ -19,41 +16,6 @@ body {
 #about-me {
   float: right;
 }
-
-// #profile-contact-area {
-//   float: left;
-//   width: 50%;
-// }
-
-// #about-me-build, #technologies-build {
-//   float: right;
-//   width: 50%;
-//   height: 50%;
-//   margin: 0;
-// }
-
-// #projects-build {
-//   width: 50%;
-//   height: 50%;
-//   margin: 0 auto 0 auto;
-// }
-
-// #exercises {
-//   padding-top: 29px;
-// }
-
-// .learn-about-me{
-//   padding-right: 27px;
-//   padding-left: 27px;
-// }
-
-// .heading-bar {
-//   border-bottom: 1px solid black;
-// }
-
-// #profile-contact-area {
-//   padding-bottom: 70px;
-// }
 
 button {
   margin: 0 5px 0 5px;
@@ -73,10 +35,11 @@ button a:hover {
 
  .techs {
    padding: 13px;
-   padding-top: 23px;
+  //  padding-top: 23px;
    background-color: white;
-   margin-left: 30px;
+  //  margin-left: 70px;
    border: 2px solid black;
+   border-radius: 22px;
  }
 
  .piccy, .contact-info {
@@ -86,24 +49,39 @@ button a:hover {
    border: 1px solid black;
  }
 
- .projects-box {
-  margin-top: 37px;
- }
-
  .titles {
   font-family: 'Comfortaa', cursive;
   font-size: 49px;
   padding-top: 23px;
  }
 
- #exercises {
-  margin-left: 80px;
+.proCards {
+  margin-bottom: 20px;
+}
+
+ .c-header {
+   font-family: bold;
+   font-size: 32px;
  }
 
  .description {
-   font-szie: 18px;
+   font-size: 13px;
  }
 
-//  .proj-body {
-//    padding-bottom: 10px;
-//  }
+ #footer {
+   height: 50px;
+ }
+
+ .learn-about-me {
+   font-size: 37px;
+   font-family: bold;
+ }
+
+ .socials {
+   width: 20px;
+   height: 20px;
+ }
+
+ .learned-tech {
+   margin: 20px 0 20px 0;
+ }
