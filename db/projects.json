@@ -1,32 +1,42 @@
 {
   "project1": 
     {
-    "title": "Movie History", 
-    "screenshot": "../src/assets/images/movie-history.png", 
+    "title": "Horder House", 
+    "screenshot": "https://i.ibb.co/L8vXfxF/Screen-Shot-2019-07-12-at-11-27-23-PM.png", 
     "description": "This project was created as an exercise to learn CRUD with Firebase.",
     "technologiesUsed": "HTML, CSS, JavaScript, Github, Webpack, Bootstrap and Firebase",
     "available": true,
-    "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-    "githubUrl": "https://github.com/Dev-Davis/movie_history"
+    "url": " https://horder-d1e3a.firebaseapp.com",
+    "githubUrl": "https://github.com/Dev-Davis/Horder"
     },
-"project2":
-    {
-      "title": "Sandwich Maker", 
-      "screenshot": "../src/assets/images/sandwich-maker.png", 
-      "description": "This project is a JavaScript project learning to use the structure of modules. ",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap and` Version Control with Github",
-      "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
-      "githubUrl": "https://github.com/Dev-Davis/Sandwich-Maker"
-    },
-"project3":
-    {
-      "title": "Hot Stuff", 
-      "screenshot": "../src/assets/images/hot-stuff.png", 
-      "description": "This is a personal JavaScript project created for a local restaurant using vanilla JavaScript.", 
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": true,
-      "url": "https://github.com/nss-evening-cohort-8/js-part-deux", 
-      "githubUrl": "https://github.com/Dev-Davis/hot-stuff"
+  "project2":
+      {
+        "title": "Movie History", 
+        "screenshot": "https://github.com/Dev-Davis/personal-bio-site/blob/master/src/assets/images/movie-history.png?raw=true", 
+        "description": "This project is a JavaScript project learning CRUD with webpack ",
+        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap and` Webpack",
+        "available": true,
+        "url": "https://movie-history-fa2b9.firebaseapp.com",
+        "githubUrl": "https://github.com/Dev-Davis/movie_history"
+      },
+  "project3":
+      {
+        "title": "Sandwich Maker", 
+        "screenshot": "https://github.com/Dev-Davis/personal-bio-site/blob/master/src/assets/images/sandwich-maker.png?raw=true", 
+        "description": "This project is a JavaScript project learning to use the structure of modules. ",
+        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Bootstrap and` Version Control with Github",
+        "available": true,
+        "url": "https://sandwich-maker-432ff.firebaseapp.com/",
+        "githubUrl": "https://github.com/Dev-Davis/Sandwich-Maker"
+      },
+  "project4":
+      {
+        "title": "Hot Stuff", 
+        "screenshot": "https://github.com/Dev-Davis/personal-bio-site/blob/master/src/assets/images/hot-stuff.png?raw=true", 
+        "description": "This is a personal JavaScript project created for a local restaurant using vanilla JavaScript.", 
+        "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+        "available": true,
+        "url": "https://hot-stuff-d3b2d.firebaseapp.com/", 
+        "githubUrl": "https://github.com/Dev-Davis/hot-stuff"
     }
 }
