@@ -1,87 +1,75 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./animate.scss";
 
-body {
-  background-image: url(https://media.istockphoto.com/photos/high-res-wooden-texture-background-picture-id509055470?k=6&m=509055470&s=612x612&w=0&h=wYebuh_XFD3i_j4v519v-w-sUYSJccK8MGscPJHHjK8=);
-  font-family: 'Cinzel', serif;
-  font-size: 23px;
-  padding: 0;
+// body {
+//   background-image: url(https://media.istockphoto.com/photos/high-res-wooden-texture-background-picture-id509055470?k=6&m=509055470&s=612x612&w=0&h=wYebuh_XFD3i_j4v519v-w-sUYSJccK8MGscPJHHjK8=);
+//   font-family: 'Cinzel', serif;
+//   font-size: 23px;
+//   padding: 0;
+// }
 
+#one, #two
+{
+  padding: 1rem;
+  border-bottom: 1px solid black;
 }
 
-#topTier {
-  float: left;
+////////// NAVBAR //////////@extend
+.socials {
+  width: 20px;
+  height: 20px;
 }
 
-#about-me {
-  float: right;
+////////// ABOUT ME //////////
+
+.pro-pic, .contact-info {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
 }
 
-button {
-  margin: 0 5px 0 5px;
-  border-radius: 15px;
-  text-decoration: none;
+#one 
+{
+  background-color: silver;
 }
 
-button a:hover {
-  text-decoration: none;
-}
 
- .logo {
-   width: 100px;
-   height: 100px;
-   margin: 0 50px 0 50px;
- }
-
- .techs {
-   padding: 13px;
-  //  padding-top: 23px;
-   background-color: white;
-  //  margin-left: 70px;
-   border: 2px solid black;
-   border-radius: 22px;
- }
-
- .piccy, .contact-info {
-   border-radius: 30%;
-   height: 300px;
-   width: 300px;
-   border: 1px solid black;
- }
-
- .titles {
-  font-family: 'Comfortaa', cursive;
-  font-size: 49px;
-  padding-top: 23px;
- }
-
-.proCards {
-  margin-bottom: 20px;
-}
-
- .c-header {
-   font-family: bold;
-   font-size: 32px;
- }
-
- .description {
-   font-size: 13px;
- }
-
- #footer {
-   height: 50px;
- }
-
- .learn-about-me {
-   font-size: 37px;
-   font-family: bold;
- }
-
- .socials {
-   width: 20px;
-   height: 20px;
- }
-
- .learned-tech {
+////////// TECHNOLIGIES AREA //////////
+  
+ .my-technologies {
    margin: 20px 0 20px 0;
- }
+  }
+  
+  .my-technologies {
+    padding: 13px;
+    background-color: white;
+    margin-left: 70px;
+    border: 2px solid silver;
+    border-radius: 22px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 50px 0 50px;
+    padding: 1rem;
+  }
+
+  .nss-techs
+  {
+    margin-bottom: 1rem;
+  }
+
+#two 
+{
+  background-color: black;
+  color: white;
+}
+
+
+
+#three 
+{
+  // background-color: gray;
+}
